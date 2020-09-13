@@ -209,9 +209,29 @@ body .primary-btn a {
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
 
+.header .logo-and-menu-container .logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo-and-menu-container .logo-container img {
+  width: 75px;
+}
+
 .header .logo-and-menu-container .logo-container h1 {
+  display: none;
   font-size: 25px;
   font-weight: 600;
+}
+
+@media (min-width: 500px) {
+  .header .logo-and-menu-container .logo-container h1 {
+    display: block;
+  }
 }
 
 .header .logo-and-menu-container .menu-icon-container {

@@ -210,10 +210,21 @@ body {
          box-shadow: 0 4px 4px rgba($color-black, .3);
 
          .logo-container {
+              display: flex;
+              align-items: center;
+
+               img {
+                    width: 75px;
+               }
 
               h1 {
+                   display: none;
                    font-size: 25px;
                    font-weight: 600;
+
+                   @media (min-width: 500px) {
+                        display: block;
+                   }
               }
          }
 

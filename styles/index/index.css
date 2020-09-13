@@ -492,7 +492,7 @@ body .primary-btn a {
 
 .services-section .services-container .service {
   width: 100%;
-  height: 270px;
+  height: 310px;
   max-width: 300px;
   overflow: hidden;
   border-radius: 5px;
@@ -511,12 +511,6 @@ body .primary-btn a {
   position: relative;
   padding: 10px 10px 10px 40px;
   border-bottom: 2px solid #101e35;
-}
-
-@media (min-width: 500px) {
-  .services-section .services-container .service .service-header {
-    height: 80px;
-  }
 }
 
 .services-section .services-container .service .service-header h3 {

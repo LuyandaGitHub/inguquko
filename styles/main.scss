@@ -52,11 +52,11 @@ body {
         margin: 100px 0 50px 0;
         
         h2 {
-            font-size: 40px;
-            position: relative;
-            letter-spacing: 2px;
+          font-size: 40px;
+          position: relative;
+          letter-spacing: 2px;
 
-            &::before {
+          &::before {
                  left: 0;
                 bottom: 0;
                 width: 60px;
@@ -64,8 +64,7 @@ body {
                 height: 5px;
                 position: absolute;
                 background: $color-primary;
-            }
-            
+          }
         }
     }
 
@@ -286,3 +285,75 @@ body {
     }
 }
 
+.contact-section {
+     .contact-container {
+          .contact {
+               padding: 20px;
+               border-radius: 5px;
+               margin-bottom: 20px;
+               background: $color-off-white;
+ 
+               h3 {
+                    margin-bottom: 10px;
+               }
+     
+               p {
+     
+                    a {
+                         color: $color-primary;
+                         text-decoration: none;
+                    }
+               }
+             
+         }
+ 
+          .contact-form {
+               width: 100%;
+               margin: 0 auto;
+     
+               .form-row {
+                    flex-direction: column;
+                    @extend %space-between;
+     
+                    @media (min-width: 700px) {
+                         flex-direction: row;
+                    }
+                    
+               }
+ 
+               label {
+                    width: 100%;
+     
+                    @media (min-width: 700px) {
+                         width: 49%;   
+                    }
+     
+                    input, textarea {
+                         width: 100%;
+                         padding: 10px;
+                         display: block;
+                         margin-bottom: 15px;
+                    }
+               }
+ 
+               .submit-btn {
+                    width: 100%;
+                    color: $color-white;
+               }
+         }
+     }
+ }
+
+.footer {
+     padding: 50px 0;
+     margin-top: 50px;
+     text-align: center;
+     background: $color-off-white;
+ 
+     .copyright {
+  
+         a {
+             color: $color-primary;
+         }
+     }
+ }

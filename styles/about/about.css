@@ -358,4 +358,9 @@ body .primary-btn a {
 .footer .copyright a {
   color: #101e35;
 }
-/*# sourceMappingURL=main.css.map */
+
+body ol li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=about.css.map */

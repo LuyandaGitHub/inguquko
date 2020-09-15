@@ -42,49 +42,70 @@ body {
     color: $color-primary;
     font-family: 'Poppins', sans-serif;
 
-    .container {
-         width: 90%;
-         margin: 0 auto;
-         max-width: 800px;
-    }
+     .container {
+          width: 90%;
+          margin: 0 auto;
+          max-width: 800px;
+     }
 
-    .section-intro {
-        margin: 100px 0 50px 0;
-        
-        h2 {
-          font-size: 40px;
-          position: relative;
-          letter-spacing: 2px;
+     .section-intro {
+          margin: 100px 0 50px 0;
+          
+          h2 {
+               font-size: 40px;
+               position: relative;
+               letter-spacing: 2px;
 
-          &::before {
-                 left: 0;
-                bottom: 0;
-                width: 60px;
-                content: '';
-                height: 5px;
-                position: absolute;
-                background: $color-primary;
+               &::before {
+                    left: 0;
+                    bottom: 0;
+                    width: 60px;
+                    content: '';
+                    height: 5px;
+                    position: absolute;
+                    background: $color-primary;
+               }
           }
-        }
-    }
+     }
 
-    .primary-btn {
-        border: none;
-        padding: 15px ;
-        border-radius: 5px;
-        text-transform: uppercase;
-        background: $color-primary;
-        transition: all .5s ease-in-out;
+     .primary-btn {
+          border: none;
+          padding: 15px;
+          border-radius: 5px;
+          text-transform: uppercase;
+          background: $color-primary;
+          transition: all .5s ease-in-out;
 
-        &:hover {
-            background: lighten($color-primary, .5);
-        }
+          &:hover {
+               background: lighten($color-primary, .5);
+          }
 
-        a {
-            color: $color-white;
-            text-decoration: none;
-        }
-    }
+          a {
+               color: $color-white;
+               text-decoration: none;
+          }
+     }
+
+     .readmore-btn {
+          border: none;
+          padding: 15px;
+          margin-top: 20px;
+          text-align: center;
+          border-radius: 5px;
+          text-transform: uppercase;
+          background: $color-off-white;
+          transition: all .5s ease-in-out;
+          
+          &:hover {
+               background: darken($color-off-white, .5);
+          }
+          
+          a {
+               line-height: 50%;
+               color: $color-primary;
+               text-decoration: none;
+          }
+     }
 }
 
 .header {

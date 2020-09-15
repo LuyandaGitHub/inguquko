@@ -94,6 +94,28 @@ body .primary-btn a {
   text-decoration: none;
 }
 
+body .readmore-btn {
+  border: none;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: #efefef;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+body .readmore-btn:hover {
+  background: #eeeeee;
+}
+
+body .readmore-btn a {
+  line-height: 50%;
+  color: #101e35;
+  text-decoration: none;
+}
+
 .header {
   width: 100%;
 }
@@ -382,7 +404,7 @@ body .primary-btn a {
   background: #efefef;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .hero-section {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -398,9 +420,9 @@ body .primary-btn a {
   height: 100%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .hero-section .left-content {
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -413,7 +435,7 @@ body .primary-btn a {
   margin-bottom: 20px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .hero-section .left-content .cta-container h1 {
     font-size: 50px;
   }
@@ -434,7 +456,7 @@ body .primary-btn a {
   display: none;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .hero-section .right-content {
     display: block;
   }
@@ -445,7 +467,7 @@ body .primary-btn a {
   width: 100%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .hero-section .right-content img {
     top: 50%;
     right: 25px;
@@ -455,7 +477,7 @@ body .primary-btn a {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .hero-section .right-content img {
     right: 15px;
   }

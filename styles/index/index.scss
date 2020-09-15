@@ -8,7 +8,7 @@
     @extend %space-between;
     background: $color-off-white;
     
-    @media (min-width: 800px) {
+    @media (min-width: 900px) {
         flex-direction: row;
         position: relative;
         padding: 0 100px;
@@ -22,8 +22,8 @@
         height: 100%;
         @extend %center;
 
-        @media (min-width: 800px) {
-            width: 50%;    
+        @media (min-width: 900px) {
+            width: 40%;    
         }
 
         .cta-container {
@@ -32,7 +32,7 @@
                 font-size: 40px;
                 margin-bottom: 20px;
 
-                @media (min-width: 800px) {
+                @media (min-width: 900px) {
                     font-size: 50px;
                 }
 
@@ -51,7 +51,7 @@
         width: 50%;
         display: none;
         
-        @media (min-width: 800px) {
+        @media (min-width: 900px) {
             display: block;    
         }
 
@@ -59,14 +59,14 @@
             z-index: 1;
             width: 100%;
 
-            @media (min-width: 800px) {
+            @media (min-width: 900px) {
                 top: 50%;
                 right: 25px;
                 position: absolute;
                 transform: translateY(-50%);   
             }
 
-            @media (min-width: 800px) {
+            @media (min-width: 900px) {
                 right: 15px;
             }
         }
@@ -128,6 +128,5 @@
          }
     }
 }
-
 
 

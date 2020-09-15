@@ -82,6 +82,28 @@ body .primary-btn a {
   text-decoration: none;
 }
 
+body .readmore-btn {
+  border: none;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: #efefef;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+body .readmore-btn:hover {
+  background: #eeeeee;
+}
+
+body .readmore-btn a {
+  line-height: 50%;
+  color: #101e35;
+  text-decoration: none;
+}
+
 .header {
   width: 100%;
 }

@@ -391,8 +391,12 @@ body {
      }
 
      .socials-container {
-          img {
-               width: 50px;
+          a {
+               text-decoration: none;
+               
+               img {
+                    width: 50px;
+               }
           }
      }
  }

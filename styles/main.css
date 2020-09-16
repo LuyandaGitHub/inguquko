@@ -396,7 +396,11 @@ body .readmore-btn a {
   color: #101e35;
 }
 
-.footer .socials-container img {
+.footer .socials-container a {
+  text-decoration: none;
+}
+
+.footer .socials-container a img {
   width: 50px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -4,29 +4,33 @@
     width: 100%;
     height: 100vh;
     padding: 0 25px;
-    @extend %space-between;
+    @extend %center;
     background: $color-off-white;
     flex-direction: column-reverse;
     
     @media (min-width: 900px) {
-        flex-direction: row;
-        position: relative;
         padding: 0 100px;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .left-content {
         width: 90%;
-        height: 100%;
+        height: 50vh;
         @extend %center;
-
+        text-align: center;
+        
         @media (min-width: 900px) {
-            width: 40%;    
+            width: 50%;    
+            text-align: left;
         }
 
         .cta-container {
-            z-index: 2;
+            max-width: 500px;
+
             h1 {
-                font-size: 40px;
+                font-size: 30px;
                 margin-bottom: 20px;
 
                 @media (min-width: 900px) {
@@ -45,27 +49,33 @@
     }
 
     .right-content {
-        width: 50%;
-        // display: none;
+        width: 100%;
+        height: 40vh;
+        @extend %center;
+        margin: 100px 0 50px 0;
         
         @media (min-width: 900px) {
-            display: block;    
+            width: 50%;
+            height: 100vh;
         }
 
         img {
-            z-index: 1;
             width: 100%;
-
+            max-width: 500px;
+            
             @media (min-width: 900px) {
-                top: 50%;
-                right: 25px;
-                position: absolute;
-                transform: translateY(-50%);   
+                max-width: none;
             }
+            // @media (min-width: 900px) {
+            //     top: 50%;
+            //     right: 25px;
+            //     position: absolute;
+            //     transform: translateY(-50%);   
+            // }
 
-            @media (min-width: 900px) {
-                right: 15px;
-            }
+            // @media (min-width: 900px) {
+            //     right: 15px;
+            // }
         }
     }
 }

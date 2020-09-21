@@ -116,7 +116,6 @@ body {
          width: 100%;
          z-index: 15;
 
-
          @media (min-width: 950px) {
               display: none;
          }
@@ -168,7 +167,6 @@ body {
                         }
                    }
               }
-
          }
     }
 
@@ -239,16 +237,16 @@ body {
 
                     img {
                         width: 75px;
+                        display: none;
+                     
+                        @media (min-width: 600px) {
+                              display: block;
+                         }
                     }
      
                     h1 {
-                         display: none;
                          font-size: 25px;
                          font-weight: 600;
-     
-                         @media (min-width: 500px) {
-                              display: block;
-                         }
                   }
               }
 

@@ -244,18 +244,18 @@ body .readmore-btn a {
 
 .header .logo-and-menu-container .logo-container a img {
   width: 75px;
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .header .logo-and-menu-container .logo-container a img {
+    display: block;
+  }
 }
 
 .header .logo-and-menu-container .logo-container a h1 {
-  display: none;
   font-size: 25px;
   font-weight: 600;
-}
-
-@media (min-width: 500px) {
-  .header .logo-and-menu-container .logo-container a h1 {
-    display: block;
-  }
 }
 
 .header .logo-and-menu-container .menu-icon-container {

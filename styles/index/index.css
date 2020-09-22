@@ -437,7 +437,6 @@ body .readmore-btn a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    background: #efefef;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -454,9 +453,6 @@ body .readmore-btn a {
 @media (min-width: 900px) {
   .hero-section .left-content {
     width: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     text-align: left;
   }
 }
@@ -496,9 +492,6 @@ body .readmore-btn a {
 @media (min-width: 900px) {
   .hero-section .right-content {
     width: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     height: 100vh;
   }
 }

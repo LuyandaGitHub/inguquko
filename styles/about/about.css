@@ -477,4 +477,9 @@ body ol li {
 .founders-section .founders-container .founder .details-container p {
   color: rgba(16, 30, 53, 0.7);
 }
+
+.founders-section .founders-container .founder .details-container p a {
+  text-decoration: none;
+  color: rgba(16, 30, 53, 0.7);
+}
 /*# sourceMappingURL=about.css.map */

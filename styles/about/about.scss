@@ -64,6 +64,11 @@ body {
 
                 p {
                     color: rgba($color-primary, .7);
+                    
+                    a {
+                        text-decoration: none;
+                        color: rgba($color-primary, .7);
+                    }
                 }
             }
         }
